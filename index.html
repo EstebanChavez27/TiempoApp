@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiempoApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body onload="onLoad()">
+
+    <div id="container">
+        <div class="block">
+            <div id="location"></div>
+            <div id="date"></div>
+            <div id="location"></div>
+
+            <div class="information">
+                <div class="info" class="temperature" id="temperature"></div>
+            </div>
+            <div id="description"></div>
+            <div class="information">
+                <p>Humedad:</p>
+                <div class="info" id="humidity"></div>
+            </div>
+            <div class="information">
+                <p>Presión atmosférica:</p>
+                <div class="info" id="pressure"></div>
+            </div>
+        </div>
+    </div>
+    <div id="loader" class="loader">Cargando...</div>
+    <div class="barra-footer">
+        &copy; App by <a href="https://estebanchavez27.github.io/MiPortafolio/" target="_blank" >Esteban Chávez</a> - 2021
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
